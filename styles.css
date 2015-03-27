@@ -1,0 +1,118 @@
+@font-face {
+    font-family: myriadmenu;
+    src: url(myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: bodyserif;
+    src: url(linux_libertine/LinLibertine_DR.ttf);
+}
+
+body {
+    font-family: bodyserif, serif;
+    padding: ;
+    background-image: url('images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 1.5vw;
+
+}
+
+h1 {
+    font-family: Baskerville, serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 8vw;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:focus {
+    text-decoration: underline;
+    color: inherit;
+}
+a:hover {
+    color: #eeee33;
+    text-decoration: none;
+}
+
+.title {
+    vertical-align: middle;
+    margin-top: 10%; 
+    
+}
+
+#menu {
+    font-size: 3vw;
+    list-style-type: none;
+    text-align: center;
+    color: #eee;
+    font-weight: 200;
+    font-family: myriadmenu; 
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    padding:4%;
+    text-align: center;
+
+}
+
+#main-content {
+    background-color: #fff;
+    color: #222;
+    text-align: center;
+}
+
+#main-content h1 {
+    color: #222;
+    font-size: 4vw;
+}
+
+#main-content p {
+    text-align: left;
+    padding: 0 0 0 17%;
+    font-size: 1em;
+    font-family: bodyserif, serif;
+}
+
+.headshot {
+    opacity: 1.0;
+    float: right;
+    border: 0px solid #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 0 0 4%;
+    height: 30vw;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+#text-content {
+    height: 100%;
+    padding: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+#photo-intro {
+    text-align: center;
+    width: 100%;
+    padding: 2% 10% 2% 10%;
+    font-family: bodyserif;
+    
+}
+
+#photo-intro a {
+    color: #D708A3;
+}
+

@@ -1,0 +1,31 @@
+<HTML>
+<head>
+    <title>Henry Gargan</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+  <script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    console.log('DOM Ready');
+     $('#menu a').click(function() {
+        var url=$(this).attr('href');
+        $('#main-content').load(url);
+        return false;
+    });
+  });
+    </script>
+<body>
+
+        <div class="title"><h1><a href="index.html">Henry Gargan</a></h1></div>
+        <ul id="menu">
+            <a href="#"><li>Writing</li></a>
+            <a href="photos.html"><li>Photos</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="#"><li>Contact</li></a>
+        </ul>
+        <div id="main-content"></div>
+
+
+</body>
+</HTML>
