@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: bodyserif;
-    src: url(linux_libertine/LinLibertine_DR.ttf);
+    src: url(linux_libertine/LinLibertine_R.ttf);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     vertical-align: bottom;
-    font-size: 1.5vw;
+    font-size: 1.7em;
 
 }
 
@@ -38,7 +38,7 @@ a:focus {
     color: inherit;
 }
 a:hover {
-    color: #eeee33;
+    color: #D708A3;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 
 #menu li {
     display: inline;
-    padding:4%;
+    padding: 4%;
     text-align: center;
 
 }
@@ -69,6 +69,7 @@ a:hover {
     background-color: #fff;
     color: #222;
     text-align: center;
+    
 }
 
 #main-content h1 {
@@ -78,30 +79,37 @@ a:hover {
 
 #main-content p {
     text-align: left;
-    padding: 0 0 0 17%;
+    padding: 0 0 0 0;
     font-size: 1em;
     font-family: bodyserif, serif;
+    text-align: left;
 }
 
 .headshot {
     opacity: 1.0;
-    float: right;
     border: 0px solid #fff;
-    border-radius: 30px;
+    border-radius: 60px;
     overflow: hidden;
-    margin: 0 0 0 4%;
-    height: 30vw;
+    margin: 0 0 5% 0%;
+    height: 100%;
     width: auto;
     max-width: 300px;
     max-height: 300px;
+    text-align: center;
     
+}
+
+.row {
+    text-align: center;
 }
 
 #text-content {
     height: 100%;
-    padding: 5%;
-    width: 90%;
+    width: 95%;
+    padding: 5% 0 10% 0;
     text-align: center;
+    max-width: 900px;
+    margin-right: 0;
 }
 
 #photo-intro {
@@ -115,4 +123,18 @@ a:hover {
 #photo-intro a {
     color: #D708A3;
 }
+
+#contact-types {
+    padding: 8% 1% 1% 3%;
+    list-style-type: none;
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+.needs-padding {
+    padding: 1%;
+}
+
 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <title>About</title>
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="jquery.qtip.css"/>
+<script type="text/javascript" src="jquery.qtip.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    console.log('DOM Ready');
+    
+    $('#twitter').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Twitter',
+    },
+    
+     position: {
+        my: 'bottom center',
+        at: 'bottom center',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    
+    $('#email').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Email',
+    },
+    
+    position: {
+        my: 'bottom center',
+        at: 'bottom center',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#linkedin').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'LinkedIn',
+    },
+    
+    position: {
+        my: 'bottom center',
+        at: 'bottom center',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#flickr').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Flickr',
+    },
+    
+    position: {
+        my: 'bottom center',
+        at: 'bottom center',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+   
+  });
+</script>
+</head>
+<body>
+    <div id="contact-types">
+        <div class="row">
+            <div class="col-xs-6 col-md-3 contact-images">
+                <div id="twitter">
+            <a href="http://twitter.com/hgargan"><li><img src="images/twitter-3.svg" width="175px" height="auto"></li></a>
+            </div></div>
+            <div class="col-xs-6 col-md-3 contact-images">
+                <div id="flickr">
+            <a href="#"><li><img src="images/flickr.png" width="175px" height="auto"></li></a>
+            </div></div>
+            <div class="col-xs-6 col-md-3 needs-padding contact-images">
+                <div id="email">
+            <a href="mailto:henrygargan@gmail.com"><li><img src="images/mail-open-2.svg" width="150px" height="auto"></li></a>
+            </div></div>
+            <div class="col-xs-6 col-md-3 needs-padding contact-images">
+                <div id="linkedin">
+            <a href="#"><li><img src="images/linkedin.svg" width="150px" height="auto"></li></a>
+            </div></div>
+        </div>
+        
+    </div>
+</body>
+</html>
