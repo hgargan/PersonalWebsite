@@ -9,12 +9,24 @@
   $(document).ready(function() {
     console.log('DOM Ready');
      $('#menu a').click(function() {
-        var url=$(this).attr('href');
-        $('#main-content').load(url);
-        return false;
+	var url=$(this).attr('href');
+	$('#main-content').load(url);
+	return false;
+ 
     });
+     
   });
+
     </script>
+ <script>
+$(document).ready(function() {
+$('#sidebar a').click(function() {
+	var url2=$(this).attr('href');
+	$('#blog-content').load(url2);
+	return false;
+      });
+});
+ </script>
 <body>
 
         <div class="title"><h1><a href="index.html">Henry Gargan</a></h1></div>

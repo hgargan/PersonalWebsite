@@ -132,9 +132,17 @@ a:hover {
     
 }
 
+#contact-types:hover {
+    color: #333333;
+}
+
 
 .needs-padding {
     padding: 1%;
 }
 
+#sidebar {
+    list-style-type: none;
+    
+}
 
