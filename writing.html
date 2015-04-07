@@ -4,13 +4,23 @@
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+     <script type="text/javascript" charset="utf8">
+$(document).ready(function() {
+$('#writing-container a').click(function() {
+	var url2=$(this).attr('href');
+	$('#blog-content').load(url2);
+	return false;
+      });
+});
+ </script>
 </head>
+
 <body>
 <div id="writing-container">
     <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-4 sidebar">
             <ul>
-            <li><a href="piece1.html">Example Piece</a></li>
+            <li><a href="writing/piece1.html">Example Piece</a></li>
             <li><a href="#">Example Piece</a></li>
             <li><a href="#">Example Piece</a></li>
             <li><a href="#">Example Piece</a></li>
@@ -21,7 +31,7 @@
             
         </div>
         <div class="col-xs 12 col-sm-9 col-md-8">
-            <div id="blog-content"></div>
+            <div id="blog-content">This is a test to see if it'll be replaced or nah! </div>
         </div>
     </div>
 </div>

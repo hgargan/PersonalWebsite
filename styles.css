@@ -14,6 +14,7 @@ body {
     background-image: url('images/background.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
     vertical-align: bottom;
     font-size: 1.7em;
@@ -27,6 +28,9 @@ h1 {
     font-size: 8vw;
 }
 
+li {
+    list-style-type: none;
+}
 
 a {
     text-decoration: none;
@@ -59,6 +63,23 @@ a:hover {
 }
 
 #menu li {
+    display: inline;
+    padding: 4%;
+    text-align: center;
+
+}
+
+#newpage {
+    font-size: 3vw;
+    list-style-type: none;
+    text-align: center;
+    color: #eee;
+    font-weight: 200;
+    font-family: myriadmenu; 
+    padding: 0;
+}
+
+#newpage li {
     display: inline;
     padding: 4%;
     text-align: center;
@@ -141,8 +162,26 @@ a:hover {
     padding: 1%;
 }
 
-#sidebar {
+.sidebar {
     list-style-type: none;
-    
+    padding: 5% 0 0 0;
 }
 
+.sidebar li {
+    padding: 5%;
+}
+    
+
+#writing-container a {
+    color: #000;
+}
+
+.post-content {
+    background-color: #eee;
+    font-family: body-serif;
+    line-height: 1.5em;
+    margin: ;
+    padding: 5%;
+    max-width: 600px;
+    text-align: left;
+}
