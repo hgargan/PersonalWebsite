@@ -6,7 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
      <script type="text/javascript" charset="utf8">
 $(document).ready(function() {
-$('#writing-container a').click(function() {
+$('.sidebar a').click(function() {
 	var url2=$(this).attr('href');
 	$('#blog-content').load(url2);
 	return false;
@@ -16,25 +16,55 @@ $('#writing-container a').click(function() {
 </head>
 
 <body>
-<div id="writing-container">
+    <div class="title"><h1><a href="index.html">Henry Gargan</a></h1></div>
+        <ul id="menu">
+            
+            <a href="writing.html"><li>Writing</li></a>
+            <a href="photos.html"><li>Photos</li></a>
+            <a href="webdesign.html"><li>Web Design</li></a>
+    
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            
+        </ul>
+        <div id="main-content">
+<!--<div id="writing-container">
     <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-4 sidebar">
             <ul>
-            <li><a href="writing/piece1.html">Example Piece</a></li>
-            <li><a href="#">Example Piece</a></li>
-            <li><a href="#">Example Piece</a></li>
-            <li><a href="#">Example Piece</a></li>
-            <li><a href="#">Example Piece</a></li>
-            <li><a href="#">Example Piece</a></li>
-            <li><a href="#">Example Piece</a></li>
+            <li><a href="writing/piece1.html">The Metaphysics of Beard-Having</a></li>
+            <li><a href="opinion-editor-tells-all.html">A Day at the Office</a></li>
+            <li><a href="writing/roses-obit.html">On the Closing of Roses</a></li>
+            <li><a href="#">That Time with the Bouncy Houses</a></li>
+            <li><a href="#">History and the Hills</a></li>
+            <li><a href="#">Thank you, Parents</a></li>
+            <li><a href="#">How to Talk About the Outdoors Without Being the Worst</a></li>
             </ul>
             
         </div>
-        <div class="col-xs 12 col-sm-9 col-md-8">
-            <div id="blog-content">This is a test to see if it'll be replaced or nah! </div>
+        <div class="col-xs 12 col-sm-9 col-md-8">-->
+           <div id="writing-intro">
+            <h2>Work</h2>
+            <p>I spent the last year as the opinion editor for <a href="http://dailytarheel.com" target="_blank">The Daily Tar Heel,</a> which was a blessing in so many ways.
+            I was given more freedom than I probably should have been, but I'm so grateful for the trust and mentorship I received there.</p>
+            <p>I began my career as an aspiring sportswriter, and I was, for about three years.
+            But I ended up in charge of a blog for a friend's streetwear business where I could write about whatever I wanted, and I discovered that, when given such an opportunity, I tended not to write about sports. And that was that. </p>
+            <p>So here I am, an erstwhile sportswriter who's spent the last year perfecting the art of the 250-word editorial and the 500-word essay.</p><hr>
+            <h3>Compendiums</h3>
+            <p><a href="http://bit.ly/1cbdsLT" target="_blank">Archive at The Daily Tar Heel</a> (excluding my unsigned editorials)</p>
+            <p><a href="http://www.laxmagazine.com/search?query=henry+gargan" target="_blank">Archive at Lacrosse Magazine</a></p>
+            <p><a href="http://henrygargan.pressfolios.com" target="_blank">Pressfolios page</a></p>
+            <p><a href="http://1hour1story.wordpress.com" target="_blank">Fiction Project</a></p>
+            <h3>Other links</h3>
+            <p><a href="http://southernwildunc.com/2015/03/30/how-to-talk-about-the-outdoors-without-being-the-worst/" target="_blank">Guest post for Southern Wild: How to talk about the outdoors without being the worst</a></p>
+            <p><a href="http://www.newsobserver.com/news/local/community/chapel-hill-news/chn-opinion/article18418502.html" target="_blank">April column for The Chapel Hill News/(Raleigh) News & Observer</a></p>
+            <p><a href="http://www.newsobserver.com/news/local/community/chapel-hill-news/chn-opinion/article14648159.html" target="_blank">March column for The Chapel Hill News/(Raleigh) News & Observer</a></p>
+            <p><a href="http://www.newsobserver.com/news/local/community/chapel-hill-news/chn-opinion/article10247837.html" target="_blank">Feburary column for The Chapel Hill News/(Raleigh) News & Observer</a></p>
+            <p><a href="http://www.newsobserver.com/opinion/op-ed/article10138571.html" target="_blank">Op-ed in the (Raleigh) News & Observer</a></p>
+            </div>
+          
+            
         </div>
-    </div>
-</div>
 </body>
 
 
