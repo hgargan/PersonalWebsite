@@ -26,7 +26,6 @@ h1 {
     text-transform: uppercase;
     color: #fff;
     font-size: 8vw;
-    padding: 1.5em
 }
     
 h3 {
@@ -55,7 +54,8 @@ a:hover {
 
 .title {
     vertical-align: middle;
-    margin-top: 10%; 
+    margin-top: 10%;
+    padding: 1.5em;
     
 }
 
@@ -112,6 +112,7 @@ a:hover {
 #main-content h1 {
     color: #222;
     font-size: 4vw;
+    padding: 4% 0 0 0;
 }
 
 #main-content p {
@@ -227,8 +228,8 @@ a:hover {
 #web-design h3 {
     line-height: 1em;
     padding: 1em 0 0 0;
-    margin: 0 0 0 -14%;
-    text-align: center;
+    margin: 0 0 0 10%;
+    text-align: left;
 }
 
 .flexslider {
